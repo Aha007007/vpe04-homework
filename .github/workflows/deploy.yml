@@ -31,5 +31,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:latest
-            ghcr.io/${{ github.repository }}:${{ github.sha }}
+            ghcr.io/aha007007/vpe04-homework:latest
+            ghcr.io/aha007007/vpe04-homework:${{ github.sha }}
